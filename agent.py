@@ -3,7 +3,6 @@ from typing import TypedDict, List
 from pydantic import BaseModel, Field
 import json
 from langchain_core.prompts import ChatPromptTemplate
-# Unakku OpenAI irundha ChatOpenAI, Groq irundha ChatGroq use pannalam
 from langchain_groq import ChatGroq
 from langgraph.graph import StateGraph, END
 from scenarios import Alert, BENCHMARK_SCENARIOS
